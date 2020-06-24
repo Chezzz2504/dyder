@@ -1,0 +1,226 @@
+body
+  padding: 0
+  padding-top: 250px
+  margin: 0
+  color: $text-grey
+  font-family: $regular-font
+  font-size: 18px
+  .container
+    max-width: 1440px
+  .d-flex
+    display: flex
+  .ai-c
+    align-items: center
+  .jc-c
+    justify-content: center
+  .jc-sb
+    justify-content: space-between
+  .jc-fe
+    justify-content: flex-end
+  img
+    display: block
+    max-width: 100%
+  p
+    margin-top: 0
+    line-height: 1.6
+    margin-bottom: 30px
+    &:last-child
+      margin-bottom: 0
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+    margin-top: 0
+    margin-bottom: 30px
+    line-height: 1.2
+    font-weight: 400
+  &.home
+    .first-section
+      .section-image
+        margin-right: -50px
+      .text
+        margin-bottom: 40px
+        max-width: 560px
+      .form
+        margin-bottom: 45px
+      .benefits
+        .benefit-item
+          margin-right: 100px
+          padding-left: 25px
+          font-family: $medium-font
+          line-height: 1.5
+          background: url(../../images/check.svg) 0 center no-repeat
+          &:last-child
+            margin-right: 0
+    .second-section
+      .text
+        max-width: 540px
+        margin-bottom: 20px
+      .block-title
+        &:before
+          left: auto
+          right: 15%
+          top: 30px
+  .section
+    margin-bottom: 200px
+    .section-subtitle
+      margin-bottom: 20px
+      font-family: $medium-font
+      font-size: 16px
+      line-height: 1.5
+    .block-title
+      position: relative
+      &:before
+        position: absolute
+        left: -50px
+        top: 0
+        display: block
+        content: ''
+        width: 129px
+        height: 129px
+        background: url(../../images/title-bg.svg) 0 0 no-repeat
+    .section-title
+      position: relative
+      margin-bottom: 30px
+      color: $dark
+      font-size: 48px
+      font-family: $bold-font
+      z-index: 1
+      &.main-title
+        font-size: 64px
+  .form
+    max-width: 600px
+    position: relative
+    .text-input
+      display: block
+      width: 100%
+      border: none
+      padding: 23px 246px 22px 46px
+      border-radius: 50px
+      font-size: 18px
+      line-height: 1.5
+      color: $text-grey
+      font-family: $medium-font
+      box-shadow: 0 13.8611px 55.4444px #F2F5FA
+      &:focus
+        &::placeholder
+          opacity: 0
+      &::placeholder
+        opacity: 1
+        color: $input
+    .form-button
+      position: absolute
+      right: 0
+      top: 0
+      height: 100%
+      width: 200px
+      text-align: center
+      padding: 22px
+      font-family: $semibold-font
+      font-size: 24px
+      line-height: 1.2
+      color: $white
+      border-radius: 50px
+      border: none
+      background-color: $green
+      cursor: pointer
+  .link
+    .simple-link
+      position: relative
+      padding-left: 20px
+      font-size: 20px
+      font-family: $bold-font
+      line-height: 1.2
+      text-decoration: underline
+      color: $link
+      &:before
+        position: absolute
+        left: 0
+        top: 6px
+        border-top: 8px solid transparent
+        border-bottom: 8px solid transparent
+        border-right: 8px solid $link
+        display: block
+        content: ''
+        border-radius: 3px
+  .third-section
+    margin-bottom: 135px
+    .services
+      .col-lg-4
+        margin-bottom: 100px
+      .service-item
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        .service-item_top
+          margin-bottom: 24px
+          padding-left: 45px
+          display: flex
+          align-items: center
+        .service-item_bottom
+          position: relative
+          width: 375px
+          .stripe
+            width: 100%
+            height: 6px
+            background: rgba(25, 67, 239, 0.1)
+            border-radius: 48px
+          .stripe-active
+            position: absolute
+            left: 0
+            top: 0
+            width: 0
+            height: 6px
+            border-radius: 48px
+            background-color: $green
+        .image
+          width: 54px
+          height: 54px
+          border-radius: 50%
+          background-color: $light-grey
+          display: flex
+          align-items: center
+          justify-content: center
+          .image-inner
+            position: relative
+            width: 30px
+            height: 30px
+            img
+              position: absolute
+              left: 50%
+              top: 50%
+              transform: translate(-50%, -50%)
+              &.active
+                opacity: 0
+        .title
+          max-width: 317px
+          margin-bottom: 0
+          margin-left: 15px
+          font-family: $semibold-font
+          font-size: 28px
+          line-height: 1.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
